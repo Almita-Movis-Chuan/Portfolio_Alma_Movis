@@ -6,7 +6,7 @@ Este proyecto nace del deseo de plasmar mi esencia, aprendizaje y evolución té
 
 ---
 
-## ✨ Características (Features)
+##  Características (Features)
 
 * **Hero Section:** Cursor magnético, efecto de máquina de escribir (*typewriter*) y texto en *parallax* para una introducción inmersiva.
 * **Smooth Scrolling:** Desplazamiento fluido impulsado por **Lenis + GSAP ScrollTrigger**.
