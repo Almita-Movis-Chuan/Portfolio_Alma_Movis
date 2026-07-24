@@ -1,138 +1,104 @@
-# A Nest Level Portfolio 🚀
+ Mi Portafolio Personal — Developer Junior Fullstack
 
-[![Stars](https://img.shields.io/github/stars/dnuzi/Portfolio-Site?style=social)](https://github.com/dnuzi/Portfolio-Site/stargazers) [![Forks](https://img.shields.io/github/forks/dnuzi/Portfolio-Site?style=social)](https://github.com/dnuzi/Portfolio-Site/network/members) [![License](https://img.shields.io/github/license/dnuzi/Portfolio-Site)](https://github.com/dnuzi/Portfolio-Site/blob/main/LICENSE) [![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-brightgreen)](https://vercel.com/new/git/external?repository-url=https://github.com/dnuzi/Portfolio-Site)
+¡Hola! BIenvenidx a mi portafolio web. Soy una **Desarrolladora Junior Fullstack (Java & JavaScript)** creativa y curiosa, dando mis primeros pasos profesionales en el increíble mundo de la tecnología, un área que me ha apasionado durante muchos años.
 
-A sleek, **full-stack creative portfolio template** built with modern tools like **Vite**, **Tailwind CSS**, **GSAP**, and **Lenis** for buttery-smooth animations. Inspired by the misty hills of Sri Lanka, it blends tranquility with cutting-edge code. Perfect for developers, designers, and creators who want to stand out. **100% free, open-source, and customizable** – deploy in minutes!
+Este proyecto nace del deseo de plasmar mi esencia, aprendizaje y evolución técnica. Para construirlo, tomé como referencia una plantilla/proyecto existente y lo personalicé completamente, adaptando cada sección, estilo y animación a mi propia identidad visual y profesional.
 
-<div align="center">
+---
 
-### 📸 Site Preview
+## ✨ Características (Features)
 
-![Portfolio Preview Screenshot](https://github.com/dnuzi/mova-npm-media/blob/main/Screenshot%202026-01-21%20194857.png)
-<em>*(Full-site preview: Hero, works, skills, and chronometer in action. Replace with your actual screenshot for live vibes!)*</em>
+* **Hero Section:** Cursor magnético, efecto de máquina de escribir (*typewriter*) y texto en *parallax* para una introducción inmersiva.
+* **Smooth Scrolling:** Desplazamiento fluido impulsado por **Lenis + GSAP ScrollTrigger**.
+* **Horizontal Work Scroll:** Galería interactiva (*sticky/pinned*) con efectos de revelado en escala de grises al pasar el cursor (*hover*) y animaciones de rotación.
+* **Live Chronometer:** Calculadora de edad/tiempo en tiempo real (años, meses, días, horas, minutos y segundos) con barras de progreso.
+* **Interactive Map:** Indicador de ubicación basado en SVG con efectos de radar y rebote.
+* **Timeline Skills:** Línea de progreso vertical con revelado escalonado (*staggered*) para mostrar mis habilidades y stack tecnológico.
+* **Marquee & Badges:** Marquesina con etiquetas animadas en desplazamiento infinito y insignias flotantes.
+* **Build Optimizado:** Configuración con Vite (*SingleFile* / código optimizado) para un despliegue rápido y liviano.
+* **Responsive & Accessible:** Diseño enfocado en mobile-first, con marcado semántico en HTML y soporte de accesibilidad (ARIA).
+* **Advanced Animations:** Desplazamiento bidireccional, máscaras de recorte (*clip-path*) y sombras dinámicas.
 
-</div>
+---
 
-<div align="center">
-  <img src="https://github.com/dnuzi/mova-npm-media/blob/main/movanest.gif" alt="Hero Animation" width="100%" />
-  <p><em>Live Demo: <a href="https://portfolio-site-rosy-nine.vercel.app/"></a>portfolio-site-rosy-nine.vercel.app</em></p>
-</div>
+##  Stack Tecnológico & Herramientas
 
-## ✨ Features
+| Categoría | Tecnología / Librería | ¿Por qué se utilizó? |
+| :--- | :--- | :--- |
+| **Build Tools** | Vite, PostCSS | Compilación y servidor de desarrollo ultra rápido. |
+| **Styling** | Tailwind CSS | Diseño ágil, moderno y basado en clases de utilidad. |
+| **Animations** | GSAP (3.12.5) + ScrollTrigger, TextPlugin | Animaciones precisas y fluidas basadas en el scroll del usuario. |
+| **Smooth Scroll** | Lenis | Sensación de navegación suave y nativa en toda la web. |
+| **Icons & Fonts** | Remix Icon (4.1.0), Google Fonts (Inter & Space Mono) | Tipografía moderna e iconografía limpia. |
+| **Bundling & Security** | Vite SingleFile + JS Obfuscator Plugin | Empaquetado eficiente y protección de código en producción. |
 
-- **Hero Section**: Magnetic cursor, typewriter effect, and parallax text for an immersive intro.
-- **Smooth Scrolling**: Powered by Lenis + GSAP ScrollTrigger – no jank, just flow.
-- **Horizontal Work Scroll**: Sticky, pinned gallery with grayscale hover reveals and rotate animations.
-- **Live Chronometer**: Real-time age calculator (years/months/days/hours/minutes/seconds) with progress bars.
-- **Interactive Map**: SVG-based location pin with radar ping and bounce effects.
-- **Timeline Skills**: Vertical progress line with staggered reveals for expertise showcase.
-- **Marquee & Badges**: Infinite scrolling tags and floating credentials.
-- **Single-File Build**: Obfuscated JS + inlined assets for easy deployment (under 1MB!).
-- **Responsive & Accessible**: Mobile-first, with ARIA hints and semantic HTML.
-- **Advanced Animations**: Bi-directional scrolls, clip-path masks, and shadow lifts.
+---
 
-| Feature | Tech | Why? |
-|---------|------|------|
-| Animations | GSAP + ScrollTrigger | Pixel-perfect, performant timelines. |
-| Styling | Tailwind CSS | Rapid, utility-first design. |
-| Bundling | Vite + SingleFile | Lightning-fast builds & deploys. |
-| Obfuscation | JS Obfuscator Plugin | "Encrypted" code for security flair. |
-| Smooth Scroll | Lenis | Native-feel scrolling without libraries. |
+##  Inicio Rápido (Quick Start)
 
-## 🛠 Quick Start
+### Requisitos previos
 
-### Prerequisites
-- Node.js (v18+)
-- Git
+* **Node.js** (v18+)
+* **Git**
 
-### Installation
-1. **Clone the Repo**:
+### Instalación y ejecución local
+
+1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/dnuzi/Portfolio-Site.git
-   cd danuzz-portfolio
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
    ```
 
-2. **Install Dependencies**:
+2. **Instalar dependencias:**
    ```bash
    npm install
    ```
 
-3. **Development Server**:
+3. **Ejecutar en modo desarrollo:**
    ```bash
    npm run dev
    ```
-   Open [http://localhost:5173](http://localhost:5173) – watch the magic unfold!
 
-4. **Build for Production**:
+4. **Construir para producción:**
    ```bash
    npm run build
    ```
-   Outputs a single `dist/index.html` (obfuscated & minified).
-
-5. **Preview Build**:
-   ```bash
-   npm run preview
-   ```
-
-### Customization
-- **Images**: Swap files in `/public/` (e.g., `kelum-viduranga-portrait.jpg` for hero).
-- **Content**: Edit `index.html` sections (hero text, work cards, skills list).
-- **Colors/Themes**: Tweak `--bg-color`, `--text-main` in `src/main.css`.
-- **Animations**: Adjust GSAP timelines in `src/main.js`.
-- **Add Projects**: Duplicate work cards in HTML; update `src` paths.
-
-For a full guide, see [CUSTOMIZATION.md](CUSTOMIZATION.md) (create if needed).
-
-## ☁️ Deployment
-
-### Vercel (Recommended – Free & Instant)
-1. Push to GitHub.
-2. Import repo at [vercel.com](https://vercel.com/import).
-3. Set `vercel.json` (auto-detected for Vite).
-4. Deploy – Custom domain optional!
-
-### Other Options
-- **Netlify**: Drag `/dist` or link GitHub.
-- **GitHub Pages**: Use `gh-pages` branch.
-- **Self-Host**: Serve `dist/` via Apache/Nginx.
-
-## 📚 Tech Stack
-
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![Lenis](https://img.shields.io/badge/Lenis-000?style=for-the-badge&logo=studio-freight&logoColor=white)
-![Remix Icon](https://img.shields.io/badge/Remix_Icon-18191A?style=for-the-badge&logo=remixicon&logoColor=white)
-
-- **Build Tools**: Vite, PostCSS, Tailwind.
-- **Animations**: GSAP (3.12.5), ScrollTrigger, TextPlugin.
-- **Icons**: Remix Icon (4.1.0).
-- **Fonts**: Inter & Space Mono (Google Fonts).
-- **CDNs**: Minimal – GSAP/Lenis for speed.
-
-## 🤝 Contributing
-
-Love it? Fork, tweak, and PR! Ideas for features like dark mode or React integration? Open an issue.
-
-1. Fork the repo.
-2. Create your branch (`git checkout -b feature/awesome`).
-3. Commit (`git commit -m 'Add awesome feature'`).
-4. Push (`git push origin feature/awesome`).
-5. Open a Pull Request.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is [MIT](LICENSE) licensed – use it freely, even commercially. Built with ❤️ from the sunny shores of Sri Lanka (Negombo vibes!).
-
-<div align="center">
-  <img src="https://github.com/dnuzi/mova-npm-media/blob/main/mova.gif" alt="Hero Animation" width="100%" />
-</div>
 
 ---
 
-**Made by [Danu'Zz & Kelum'Xz](https://github.com/dnuzi) – Full-Stack Creative from Sri Lanka.**  
-*January 2026 Edition* | [YouTube](https://www.youtube.com/@MovaNest) | [MainSite](https://www.movanest.xyz)  
+##  Personalización (Customization)
 
-> "Code like a hill country breeze – calm, yet unstoppable." 🌿💻
+* **Imágenes:** Cambia o agrega tus recursos visuales dentro de la carpeta `/public/`.
+* **Contenido:** Modifica el archivo `index.html` para actualizar las secciones de sobre mí, proyectos y habilidades.
+* **Colores y Temas:** Ajusta las variables CSS (`--bg-color`, `--text-main`) en `src/main.css`.
+* **Animaciones:** Personaliza los *timelines* de GSAP en `src/main.js`.
+
+---
+
+##  Despliegue (Deployment)
+
+Este proyecto está optimizado para desplegarse fácilmente en **Vercel**:
+
+1. Subir los cambios a GitHub.
+2. Importar el repositorio en [Vercel](https://vercel.com).
+3. Vercel detectará la configuración de Vite automáticamente.
+4. ¡Desplegar! 
+
+*También es compatible con Netlify, GitHub Pages o Hosting propio.*
+
+---
+
+##  Contribuciones y Feedback
+
+¡Cualquier sugerencia o feedback es super bienvenido! Si quieres aportar alguna idea o mejora:
+
+1. Haz un Fork de este repositorio.
+2. Crea tu rama de características (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz Commit de tus cambios (`git commit -m 'Añade nueva funcionalidad'`).
+4. Haz Push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+---
+
+💙 *Creado con mucha dedicación, curiosidad y pasión por el código.*
+
